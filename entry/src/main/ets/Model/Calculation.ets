@@ -100,6 +100,5 @@ export class Calculation {
     return this.results;
   }
   // 重置数据
-
 }
 export default new Calculation();
