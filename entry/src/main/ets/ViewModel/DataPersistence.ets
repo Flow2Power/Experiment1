@@ -46,7 +46,7 @@ export class DataPersistence {
       console.error(`Failed to put isLogin.Code:${error.code}, message:${error.message}`);
     }
   }
-  //获取是否登录
+  //获取是否登录von
   public static async getIsLogin(context: Context): Promise<boolean> {
     try {
       DataPersistence.preferences = await dataPreferences.getPreferences(context, DataPersistence.PREFERENCES_PATH);
