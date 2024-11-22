@@ -87,7 +87,7 @@ struct ClassicPage {
     .edgeEffect(EdgeEffect.Spring)
   }
   build() {
-    Column({ space: 20}){
+    Column({ space: 50}){
       //标题
       Button("经典模式")
         .type(ButtonType.Capsule)

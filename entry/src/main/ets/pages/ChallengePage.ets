@@ -236,7 +236,7 @@ struct ChallengePage {
     .edgeEffect(EdgeEffect.Spring)
   }
   build() {
-    Column({ space: 5}){
+    Column({ space: 25}){
       //标题
       Button('难题'+this.PageNum)
         .type(ButtonType.Capsule)
